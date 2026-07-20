@@ -5,3 +5,28 @@ images/
  ├── gallery2.jpg
  ├── gallery3.jpg
  └── logo.png
+<div class="gallery">
+
+<img src="images/gallery1.jpg" width="300">
+
+<img src="images/gallery2.jpg" width="300.gallery{
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.gallery img{
+width:300px;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+transition:.4s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}">
+
+<img src="images/gallery3.jpg" width="300">
+
+</div>
